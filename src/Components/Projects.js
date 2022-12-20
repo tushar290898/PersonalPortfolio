@@ -27,8 +27,8 @@ function Projects() {
              <Card
                 image={img2}
                 title="Linkdin Clone"
-                info="This is webapp based on technology HTML CSS Javascript React Firebase.
-                     user can login and logout using firebase and post feed"
+                info="This is a clone webapp based on technology HTML, CSS, Javascript, React, Firebase.
+                     user can login and logout using firebase and post feed."
                 code="https://github.com/tushar290898/clone-linkdn"
                 live="https://linkdn-clone-5597b.web.app/"
             />  

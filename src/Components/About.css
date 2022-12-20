@@ -11,7 +11,13 @@
 .about-container{
     width: 80%;
     text-align:center;
+   
 }
+
+.about-container p {
+    font-weight: 600;
+}
+
 .about-container h1{
     font-size: 35px;
     padding-bottom: 10px;
