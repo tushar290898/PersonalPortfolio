@@ -1,0 +1,29 @@
+.project-section{
+    width: 90%;
+    position: relative;
+    top: 70px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    padding-bottom: 55px;
+
+
+}
+
+@media screen and (max-width:1600px) {
+    .project-section{
+        gap:20px
+       
+    }
+}
+
+@media screen and (max-width:450px) {
+    .project-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+}

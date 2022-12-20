@@ -1,0 +1,21 @@
+.home-section{
+    width: 100%;
+    background-color:#0B4B9F;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.home-content > h1 {
+    font-size: 40px;
+}
+.home-content > p {
+    font-size: 20px;
+}
+
+.home-content{
+    width: 70%;
+}

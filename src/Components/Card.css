@@ -1,0 +1,74 @@
+.card-section{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.4);
+}
+
+
+@media screen and (min-width:750px) and (max-width:1000px) {
+    .card-section{
+        width: 31%;
+        height: 100%;
+    }
+}
+@media screen and (min-width:450px) and (max-width:749px) {
+    .card-section{
+        width: 45%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:449px) {
+    .card-section{
+        width: 90%;
+        height: 100%;
+    }
+}
+
+
+h2{
+    margin: 0;
+}
+
+
+.card-section img{
+    width: 100%;
+    object-fit:cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-info{
+    padding: 0.8rem 1rem;
+    font-size: 17px;
+}
+
+.button-section{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.btn{
+    border:1px solid black;
+    padding: 0.3rem 0.8rem;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-section .btn:hover{
+    background-color:black;
+    cursor: pointer;
+}
+
+.button-section .btn a:hover{
+    color:white;
+}
